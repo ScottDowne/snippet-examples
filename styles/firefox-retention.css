@@ -1,0 +1,83 @@
+.firefox-retention #snippetContainer div.snippet {
+   margin: 10px 0;
+}
+
+.firefox-retention .snippet {
+  text-align: center;
+}
+
+.firefox-retention .snippet p {
+  padding-left: 0;
+  width: auto;
+  margin: 0 auto;
+  display: block;
+  height: auto;
+  color: #FFFFFF;
+  font-size: 26px;
+  line-height: 30px;
+  font-family: "Open Sans";
+}
+
+.firefox-retention .snippet a {
+  background: #F7E964;
+  cursor: pointer;
+  color: #2AA6B2;
+  margin-top: 41px;
+  display: inline-block;
+  height: 52px;
+  box-sizing: border-box;
+  font-size: 19px;
+  padding: 13px 50px;
+  font-family: "Open Sans";
+  text-decoration: none;
+}
+
+.firefox-retention a:hover {
+  background: #FFFFFF;
+}
+
+.firefox-retention .snippet .header-image,
+.firefox-retention .snippet .header-alt {
+  width: 92%;
+  margin: 25px 0px 14px 0;
+}
+
+.firefox-retention #snippetContainer {
+  height: 74px;
+  transition: height 0.6s;
+  overflow: hidden;
+}
+
+.firefox-retention canvas {
+  position: absolute;
+  top: 0;
+}
+
+.firefox-retention #canvas-left {
+  left: 0;
+}
+
+.firefox-retention #canvas-right {
+  right: 0;
+}
+
+.firefox-retention {
+  background: #2AA6B2;
+  transition: background 0.3s;
+  height: 100vh;
+  overflow: auto;
+}
+.firefox-retention #launcher {
+  background: hsl(0,0%,95%);
+}
+.firefox-retention #searchIconAndTextContainer {
+  background: #F2F2F2;
+  border-radius: 2px;
+}
+.firefox-retention #searchSubmit {
+  transition-duration: 0s;
+}
+
+.firefox-retention .snippet img {
+  width: 100%;
+}
