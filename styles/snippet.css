@@ -43,6 +43,7 @@ html {
 #snippets {
   margin: 0 auto;
   text-align: left;
+  margin-top: 12px;
 }
 
 #searchText {
