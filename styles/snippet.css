@@ -6,14 +6,14 @@ body {
     height: 192px;
     width: 192px;
     margin: 22px auto 31px;
-    background-image: url("chrome://branding/content/about-logo.png");
+    background-image: url("../assets/about-logo.png");
     background-size: 192px auto;
     background-position: center center;
     background-repeat: no-repeat;
 }
 @media not all and (max-resolution: 1dppx) {
   #brandLogo {
-      background-image: url("chrome://branding/content/about-logo@2x.png");
+      background-image: url("../assets/about-logo@2x.png");
   }
 }
 #searchIconAndTextContainer, #snippets {
@@ -36,7 +36,7 @@ html {
     margin: 0;
     width: 36px;
     height: 36px;
-    background: url("chrome://browser/skin/search-indicator-magnifying-glass.svg") center center no-repeat;
+    background: url("../assets/search-indicator-magnifying-glass.svg") center center no-repeat;
     position: absolute;
 }
 
@@ -50,8 +50,8 @@ html {
     -moz-box-flex: 1;
     padding-top: 6px;
     padding-bottom: 6px;
-    padding-inline-start: 34px;
-    padding-inline-end: 8px;
+    padding-left: 34px;
+    padding-right: 8px;
     background: hsla(0,0%,100%,.9) padding-box;
     border: 1px solid;
     border-radius: 2px 0 0 2px;
@@ -65,7 +65,7 @@ html {
 #searchSubmit {
     margin-inline-start: -1px;
     color: transparent;
-    background: url("chrome://browser/skin/search-arrow-go.svg") center center no-repeat, linear-gradient(hsla(0,0%,100%,.8), hsla(0,0%,100%,.1)) padding-box;
+    background: url("../assets/search-arrow-go.svg") center center no-repeat, linear-gradient(hsla(0,0%,100%,.8), hsla(0,0%,100%,.1)) padding-box;
     -moz-context-properties: fill;
     fill: #616366;
     padding: 0;
@@ -81,13 +81,13 @@ html {
 }
 
 #searchText + #searchSubmit:hover {
-    background-image: url("chrome://browser/skin/search-arrow-go.svg"), linear-gradient(#66bdff, #0d9eff);
+    background-image: url("../assets/skin/search-arrow-go.svg"), linear-gradient(#66bdff, #0d9eff);
     fill: white;
     box-shadow: 0 1px 0 hsla(0,0%,100%,.2) inset, 0 0 0 1px hsla(0,0%,100%,.1) inset, 0 1px 0 hsla(210,54%,20%,.03), 0 0 4px hsla(206,100%,20%,.2);
 }
 
 #searchText:focus + #searchSubmit, #searchText[keepfocus] + #searchSubmit, #searchText[autofocus] + #searchSubmit {
-    background-image: url("chrome://browser/skin/search-arrow-go.svg"), linear-gradient(#4cb1ff, #1793e5);
+    background-image: url("../assets/search-arrow-go.svg"), linear-gradient(#4cb1ff, #1793e5);
     fill: white;
     box-shadow: 0 1px 0 hsla(0,0%,100%,.2) inset, 0 0 0 1px hsla(0,0%,100%,.1) inset, 0 1px 0 hsla(210,54%,20%,.03);
 }
