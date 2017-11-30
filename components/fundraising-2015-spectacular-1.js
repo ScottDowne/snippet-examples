@@ -1,4 +1,4 @@
-class Fundraising2015Spectacular extends React.Component {
+class Fundraising2015Spectacular1 extends React.Component {
   componentDidMount() {
 
   }
