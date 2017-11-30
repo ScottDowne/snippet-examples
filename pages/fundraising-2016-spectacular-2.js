@@ -3,8 +3,8 @@ class Fundraising2016Spectacular2 extends React.Component {
   render() {
     return (
       <Fundraising2016
-        backgroundImage="/assets/pink-static.png"
-        backgroundImageAnimate="/assets/pink-sparkle.gif"
+        backgroundImage="./assets/pink-static.png"
+        backgroundImageAnimate="./assets/pink-sparkle.gif"
         background="#634A64"
         fontColor="#FFFFFF"
       >
