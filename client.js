@@ -9,9 +9,11 @@ render((
       <Route path="/net-neutrality" component={NetNeutrality} />
       <Route path="/firefox-retention" component={FirefoxRetention} />
       <Route path="/fundraising-2015" component={Fundraising2015} />
-      <Route path="/fundraising-2015-spectacular" component={Fundraising2015Spectacular} />
-      <Route path="/fundraising-2016" component={Fundraising2016} />
-      <Route path="/fundraising-2016-spectacular" component={Fundraising2016Spectacular} />
+      <Route path="/fundraising-2015-spectacular-1" component={Fundraising2015Spectacular1} />
+      <Route path="/fundraising-2015-spectacular-2" component={Fundraising2015Spectacular2} />
+      <Route path="/fundraising-2016" component={Fundraising2016Page} />
+      <Route path="/fundraising-2016-spectacular-1" component={Fundraising2016Spectacular1} />
+      <Route path="/fundraising-2016-spectacular-2" component={Fundraising2016Spectacular2} />
       <Route path="/mass-surveillance" component={MassSurveillance} />
     </div>
   </HashRouter>

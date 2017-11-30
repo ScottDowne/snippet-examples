@@ -94,7 +94,7 @@ class Fundraising2015 extends React.Component {
               <button className="button donation-amount donation-amount-third" data-amount="5"></button>
               <button className="button donation-amount donation-amount-fourth" data-amount="3"></button>
 
-              <a className="button button-red button-wide donate-button" href="https://donnate.mozilla.org/en-US/">
+              <a className="button button-red button-wide donate-button" href="https://donate.mozilla.org/en-US/">
                 Donate now
               </a>
             </div>

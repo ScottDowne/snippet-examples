@@ -1,3 +1,180 @@
 .fundraising-2016 {
+  height: 100vh;
+  overflow: auto;
+}
 
+.fundraising-2016 #snippetContainer div.snippet img.icon {
+  margin: 0 8px 0 0;
+  float: none;
+}
+
+.fundraising-2016 #snippets {
+  color: #3C3C3C;
+}
+
+.fundraising-2016 .snippet p {
+  padding-left: 0;
+  width: 100%;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+.fundraising-2016 #mofo-eoy-fundraiser {
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  margin: 10px 0 5px 0;
+}
+
+.fundraising-2016 .snippet .icon {
+  position: relative;
+  right: 0;
+  top: 0;
+  display: inline-block;
+  height: auto;
+  max-height: 64px;
+  vertical-align: middle;
+}
+
+.fundraising-2016 .snippet .display-item {
+  display: table-cell;
+  vertical-align: middle;
+}
+.fundraising-2016 .snippet .display-container {
+  display: table;
+}
+
+.fundraising-2016 .has-background.heart-background-image-loader {
+  display: none;
+}
+
+.fundraising-2016 .heart-background-image-left-container,
+.fundraising-2016 .heart-background-image-right-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+
+.fundraising-2016 .heart-background-image-left-container {
+  left: 0;
+  right: calc(50% + 255px);
+}
+
+.fundraising-2016 .heart-background-image-right-container {
+  left: calc(50% + 255px);
+  right: 0;
+}
+
+.fundraising-2016 .heart-background-row {
+  height: 115px;
+  margin-top: 34px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.fundraising-2016 .heart-background-row img {
+  width: 170px;
+  height: 115px;
+}
+
+.fundraising-2016 .heart-background-image-left-container .heart-background-row {
+  background-position: 100% 0;
+  float: right;
+}
+
+.fundraising-2016 .heart-background-image-right-container .heart-background-row {
+  background-position: 0 0;
+  float: left;
+}
+
+.fundraising-2016 .heart-background-image-left-container .heart-background-row img {
+  float: right;
+}
+
+.fundraising-2016 .heart-background-image-right-container .heart-background-row img {
+  float: left;
+}
+
+.fundraising-2016 .button-link {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.fundraising-2016 .button-link:hover {
+  color: #FFFFFF;
+}
+
+.fundraising-2016 .button-link {
+  background: #2FA0F0;
+}
+
+.fundraising-2016 .button-link:hover {
+  background: #4ACCFF;
+}
+
+.fundraising-2016 .top-button-link {
+  white-space: nowrap;
+  padding: 5px 13px;
+  margin: 5px 0 5px 5px;
+}
+
+.fundraising-2016 .bottom-button-link {
+  padding: 7px 4px;
+  min-width: 122px;
+  max-width: 132px;
+  float: right;
+}
+
+.fundraising-2016 .donation-amount {
+  padding: 6px 0;
+  min-width: 73px;
+  float: left;
+  margin-right: 7px;
+  background: #D5DADE;
+  color: #3C3C3C;
+}
+
+.fundraising-2016 .donation-amount:hover {
+  background: rgba(213, 218, 222, .6);
+}
+
+.fundraising-2016 .donation-amount.button-selected {
+  color: #FFFFFF;
+  background: #9EA9B2;
+}
+
+.fundraising-2016 .donation-amounts {
+  overflow: hidden;
+  margin-top: 15px;
+}
+
+.fundraising-2016 .button {
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.fundraising-2016 .button {
+  font-size: 16px;
+}
+
+.fundraising-2016 .monthly-checkbox-container {
+  margin: 11px 0 0;
+}
+
+.fundraising-2016 .monthly-checkbox {
+  margin: 0 5px 0 0;
+  vertical-align: text-bottom;
+}
+
+.fundraising-2016 em {
+  transition: background 800ms linear;
+  font-style: normal;
+  box-decoration-break: clone;
+  margin: 0px -2px;
+  padding: 2px 2px;
+  font-weight: bold;
+}
+
+.fundraising-2016 em.active {
+  background: #FFE7AC;
 }
