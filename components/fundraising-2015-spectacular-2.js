@@ -110,7 +110,7 @@ class Fundraising2015Spectacular2 extends React.Component {
 
   render() {
     return (
-      <div className="fundraising-2015-spectacular-2">
+      <div className="fundraising-2015-spectacular fundraising-2015-spectacular-2">
         <Snippet>
           <div className="main-wrapper">
             <div className="background-container">

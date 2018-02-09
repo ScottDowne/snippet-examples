@@ -1,15 +1,14 @@
-      .fundraising-2015-spectacular-2 {
+      .fundraising-2015-spectacular {
         position: relative;
-        overflow
         font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
       }
 
-      .fundraising-2015-spectacular-2 button::-moz-focus-inner {
+      .fundraising-2015-spectacular button::-moz-focus-inner {
         border: 0;
         padding: 0;
       }
 
-      .fundraising-2015-spectacular-2 p {
+      .fundraising-2015-spectacular p {
         font-size: 14px;
         line-height: 21px;
         display: block;
@@ -18,7 +17,7 @@
         width: 100%;
       }
 
-      .fundraising-2015-spectacular-2 em {
+      .fundraising-2015-spectacular em {
         transition: background 800ms linear;
         font-style: normal;
         box-decoration-break: clone;
@@ -27,11 +26,11 @@
         font-weight: bold;
       }
 
-      .fundraising-2015-spectacular-2 em.active {
+      .fundraising-2015-spectacular em.active {
         background: #FFF8D0;
       }
 
-      .fundraising-2015-spectacular-2 .button {
+      .fundraising-2015-spectacular .button {
         margin: 0 8px 0 0;
         width: 62px;
         height: 38px;
@@ -52,7 +51,7 @@
         position: relative;
       }
 
-      .fundraising-2015-spectacular-2 .button:before {
+      .fundraising-2015-spectacular .button:before {
         content: "";
         position: absolute;
         border-radius: 2px;
@@ -63,46 +62,54 @@
         border: 1px solid rgba(255, 255, 255, 0.3);
       }
 
-      .fundraising-2015-spectacular-2 .button:hover {
+      .fundraising-2015-spectacular .button:hover {
         cursor: pointer;
         background-color: #B3B6BF;
       }
 
-      .fundraising-2015-spectacular-2 .button.button-red {
+      .fundraising-2015-spectacular .button.button-red {
         background-color: #F95D6A;
         background-image: linear-gradient(#F95D6A, #E4263C);
         margin: 0;
       }
-      .fundraising-2015-spectacular-2 .button.button-red:hover {
+      .fundraising-2015-spectacular .button.button-red:hover {
         background-color: #FF7B87;
         background-image: linear-gradient(transparent, rgba(0,0,0,0.2));
       }
-      .fundraising-2015-spectacular-2 .button-wide {
+      .fundraising-2015-spectacular .button-wide {
         width: 190px;
       }
 
-      .fundraising-2015-spectacular-2 .monthly-checkbox-container {
+      .fundraising-2015-spectacular .monthly-checkbox-container {
         overflow: hidden;
         margin: 11px 0 0;
         font-size: 12px;
       }
 
-      .fundraising-2015-spectacular-2 .monthly-checkbox {
+      .fundraising-2015-spectacular .monthly-checkbox {
         float: left;
         margin: 2px 5px 0 0;
       }
 
-      .fundraising-2015-spectacular-2 .monthly-checkbox-label {
+      .fundraising-2015-spectacular .monthly-checkbox-label {
         float: left;
       }
 
-      .fundraising-2015-spectacular-2 .button.button-selected {
+      .fundraising-2015-spectacular .button.button-selected {
         background-color: #49AFFD;
       }
 
       .fundraising-2015-spectacular-2 .background-container {
         text-align: center;
         padding: 30px 28px 27px;
+      }
+
+      .fundraising-2015-spectacular-1 .background-container {
+        text-align: center;
+        background-color: #F95D6A;
+        color: #FFFFFF;
+        padding: 30px 28px 50px;
+        background-image: linear-gradient(#F95D6A, #E4263C);
       }
 
       .fundraising-2015-spectacular-2 .main-wrapper {
@@ -114,15 +121,38 @@
         padding-bottom: 15px;
       }
 
-      .fundraising-2015-spectacular-2 .donation-container {
+      .fundraising-2015-spectacular-1 .main-wrapper {
+        margin-bottom: 25px;
+        position: relative;
+      }
+
+      .fundraising-2015-spectacular-1 .arrow-side {
+        background-color: #F2F2F2;
+        width: 245px;
+        height: 50px;
+        position: absolute;
+        bottom: -24px;
+      }
+
+      .fundraising-2015-spectacular-1 .arrow-side.left {
+        transform: rotate(12deg);
+        left: -10px;
+      }
+
+      .fundraising-2015-spectacular-1 .arrow-side.right {
+        transform: rotate(-12deg);
+        right: -10px;
+      }
+
+      .fundraising-2015-spectacular .donation-container {
         width: 470px;
         margin: 0 auto;
       }
-      .fundraising-2015-spectacular-2 .donation-amounts {
+      .fundraising-2015-spectacular .donation-amounts {
         overflow: hidden;
       }
 
-      .fundraising-2015-spectacular-2 .image-container {
+      .fundraising-2015-spectacular .image-container {
         right: 100%;
         bottom: 0;
         margin-right: -12px;
@@ -134,10 +164,20 @@
         line-height: 28px;
       }
 
+      .fundraising-2015-spectacular-1 .body-text {
+        font-size: 15px;
+        line-height: 24px;
+        color: #F5BEC4;
+      }
+
+      .fundraising-2015-spectacular-1 .body-text b {
+        color:#FFFFFF;
+      }
+
       .fundraising-2015-spectacular-2 {
         position: relative;
-        height: 100vh;
-        overflow: hidden;
+        min-height: 100vh;
+        overflow-x: hidden;
       }
 
       .fundraising-2015-spectacular-2::before {
@@ -211,7 +251,7 @@
           transform: translateY(0px);
         }
         50% {
-          transform: translateY(6px) scaleX(.985);
+          transform: translateY(-6px) scaleX(.985);
         }
         100% {
           transform: translateY(0);
@@ -224,7 +264,7 @@
           opacity: 1;
         }
         50% {
-          transform: translateY(6px) scaleX(.985) rotate(-9.25deg);
+          transform: translateY(-6px) scaleX(.985) rotate(-9.25deg);
           opacity: 1;
         }
         100% {
